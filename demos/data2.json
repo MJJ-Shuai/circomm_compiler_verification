@@ -1,0 +1,2295 @@
+{
+    "meta": {
+        "elem_id": 0,
+        "start": 0,
+        "end": 529,
+        "location": {
+        "start": 0,
+        "end": 529
+      },
+      "file_id": null,
+      "component_inference": null,
+      "type_knowledge": {
+          "reduces_to": null
+      },
+      "memory_knowledge": {
+        "concrete_dimensions": null,
+        "full_length": null,
+        "abstract_memory_address": null
+      }
+    },
+    "compiler_version": [
+      2,
+      0,
+      0
+    ],
+    "custom_gates": false,
+    "custom_gates_declared": false,
+    "includes": [],
+    "definitions": [
+      {
+        "Template": {
+          "meta": {
+            "elem_id": 0,
+            "start": 22,
+            "end": 236,
+            "location": {
+              "start": 22,
+              "end": 236
+            },
+            "file_id": null,
+            "component_inference": null,
+            "type_knowledge": {
+              "reduces_to": null
+            },
+            "memory_knowledge": {
+              "concrete_dimensions": null,
+              "full_length": null,
+              "abstract_memory_address": null
+            }
+          },
+          "name": "MultiMux1",
+          "args": [
+            "n"
+          ],
+          "arg_location": {
+            "start": 41,
+            "end": 42
+          },
+          "body": {
+            "Block": {
+              "meta": {
+                "elem_id": 0,
+                "start": 44,
+                "end": 236,
+                "location": {
+                  "start": 44,
+                  "end": 236
+                },
+                "file_id": null,
+                "component_inference": null,
+                "type_knowledge": {
+                  "reduces_to": null
+                },
+                "memory_knowledge": {
+                  "concrete_dimensions": null,
+                  "full_length": null,
+                  "abstract_memory_address": null
+                }
+              },
+              "stmts": [
+                {
+                  "InitializationBlock": {
+                    "meta": {
+                      "elem_id": 0,
+                      "start": 50,
+                      "end": 70,
+                      "location": {
+                        "start": 50,
+                        "end": 70
+                      },
+                      "file_id": null,
+                      "component_inference": null,
+                      "type_knowledge": {
+                        "reduces_to": null
+                      },
+                      "memory_knowledge": {
+                        "concrete_dimensions": null,
+                        "full_length": null,
+                        "abstract_memory_address": null
+                      }
+                    },
+                    "xtype": {
+                      "Signal": [
+                        "Input",
+                        []
+                      ]
+                    },
+                    "initializations": [
+                      {
+                        "Declaration": {
+                          "meta": {
+                            "elem_id": 0,
+                            "start": 50,
+                            "end": 70,
+                            "location": {
+                              "start": 50,
+                              "end": 70
+                            },
+                            "file_id": null,
+                            "component_inference": null,
+                            "type_knowledge": {
+                              "reduces_to": null
+                            },
+                            "memory_knowledge": {
+                              "concrete_dimensions": null,
+                              "full_length": null,
+                              "abstract_memory_address": null
+                            }
+                          },
+                          "xtype": {
+                            "Signal": [
+                              "Input",
+                              []
+                            ]
+                          },
+                          "name": "c",
+                          "dimensions": [
+                            {
+                              "Variable": {
+                                "meta": {
+                                  "elem_id": 0,
+                                  "start": 65,
+                                  "end": 66,
+                                  "location": {
+                                    "start": 65,
+                                    "end": 66
+                                  },
+                                  "file_id": null,
+                                  "component_inference": null,
+                                  "type_knowledge": {
+                                    "reduces_to": null
+                                  },
+                                  "memory_knowledge": {
+                                    "concrete_dimensions": null,
+                                    "full_length": null,
+                                    "abstract_memory_address": null
+                                  }
+                                },
+                                "name": "n",
+                                "access": []
+                              }
+                            },
+                            {
+                              "Number": [
+                                {
+                                  "elem_id": 0,
+                                  "start": 68,
+                                  "end": 69,
+                                  "location": {
+                                    "start": 68,
+                                    "end": 69
+                                  },
+                                  "file_id": null,
+                                  "component_inference": null,
+                                  "type_knowledge": {
+                                    "reduces_to": null
+                                  },
+                                  "memory_knowledge": {
+                                    "concrete_dimensions": null,
+                                    "full_length": null,
+                                    "abstract_memory_address": null
+                                  }
+                                },
+                                [
+                                  1,
+                                  [
+                                    2
+                                  ]
+                                ]
+                              ]
+                            }
+                          ],
+                          "is_constant": true
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "InitializationBlock": {
+                    "meta": {
+                      "elem_id": 0,
+                      "start": 90,
+                      "end": 104,
+                      "location": {
+                        "start": 90,
+                        "end": 104
+                      },
+                      "file_id": null,
+                      "component_inference": null,
+                      "type_knowledge": {
+                        "reduces_to": null
+                      },
+                      "memory_knowledge": {
+                        "concrete_dimensions": null,
+                        "full_length": null,
+                        "abstract_memory_address": null
+                      }
+                    },
+                    "xtype": {
+                      "Signal": [
+                        "Input",
+                        []
+                      ]
+                    },
+                    "initializations": [
+                      {
+                        "Declaration": {
+                          "meta": {
+                            "elem_id": 0,
+                            "start": 90,
+                            "end": 104,
+                            "location": {
+                              "start": 90,
+                              "end": 104
+                            },
+                            "file_id": null,
+                            "component_inference": null,
+                            "type_knowledge": {
+                              "reduces_to": null
+                            },
+                            "memory_knowledge": {
+                              "concrete_dimensions": null,
+                              "full_length": null,
+                              "abstract_memory_address": null
+                            }
+                          },
+                          "xtype": {
+                            "Signal": [
+                              "Input",
+                              []
+                            ]
+                          },
+                          "name": "s",
+                          "dimensions": [],
+                          "is_constant": true
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "InitializationBlock": {
+                    "meta": {
+                      "elem_id": 0,
+                      "start": 124,
+                      "end": 144,
+                      "location": {
+                        "start": 124,
+                        "end": 144
+                      },
+                      "file_id": null,
+                      "component_inference": null,
+                      "type_knowledge": {
+                        "reduces_to": null
+                      },
+                      "memory_knowledge": {
+                        "concrete_dimensions": null,
+                        "full_length": null,
+                        "abstract_memory_address": null
+                      }
+                    },
+                    "xtype": {
+                      "Signal": [
+                        "Output",
+                        []
+                      ]
+                    },
+                    "initializations": [
+                      {
+                        "Declaration": {
+                          "meta": {
+                            "elem_id": 0,
+                            "start": 124,
+                            "end": 144,
+                            "location": {
+                              "start": 124,
+                              "end": 144
+                            },
+                            "file_id": null,
+                            "component_inference": null,
+                            "type_knowledge": {
+                              "reduces_to": null
+                            },
+                            "memory_knowledge": {
+                              "concrete_dimensions": null,
+                              "full_length": null,
+                              "abstract_memory_address": null
+                            }
+                          },
+                          "xtype": {
+                            "Signal": [
+                              "Output",
+                              []
+                            ]
+                          },
+                          "name": "out",
+                          "dimensions": [
+                            {
+                              "Variable": {
+                                "meta": {
+                                  "elem_id": 0,
+                                  "start": 142,
+                                  "end": 143,
+                                  "location": {
+                                    "start": 142,
+                                    "end": 143
+                                  },
+                                  "file_id": null,
+                                  "component_inference": null,
+                                  "type_knowledge": {
+                                    "reduces_to": null
+                                  },
+                                  "memory_knowledge": {
+                                    "concrete_dimensions": null,
+                                    "full_length": null,
+                                    "abstract_memory_address": null
+                                  }
+                                },
+                                "name": "n",
+                                "access": []
+                              }
+                            }
+                          ],
+                          "is_constant": true
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "Block": {
+                    "meta": {
+                      "elem_id": 0,
+                      "start": 151,
+                      "end": 234,
+                      "location": {
+                        "start": 151,
+                        "end": 234
+                      },
+                      "file_id": null,
+                      "component_inference": null,
+                      "type_knowledge": {
+                        "reduces_to": null
+                      },
+                      "memory_knowledge": {
+                        "concrete_dimensions": null,
+                        "full_length": null,
+                        "abstract_memory_address": null
+                      }
+                    },
+                    "stmts": [
+                      {
+                        "InitializationBlock": {
+                          "meta": {
+                            "elem_id": 0,
+                            "start": 156,
+                            "end": 163,
+                            "location": {
+                              "start": 156,
+                              "end": 163
+                            },
+                            "file_id": null,
+                            "component_inference": null,
+                            "type_knowledge": {
+                              "reduces_to": null
+                            },
+                            "memory_knowledge": {
+                              "concrete_dimensions": null,
+                              "full_length": null,
+                              "abstract_memory_address": null
+                            }
+                          },
+                          "xtype": "Var",
+                          "initializations": [
+                            {
+                              "Declaration": {
+                                "meta": {
+                                  "elem_id": 0,
+                                  "start": 156,
+                                  "end": 163,
+                                  "location": {
+                                    "start": 156,
+                                    "end": 163
+                                  },
+                                  "file_id": null,
+                                  "component_inference": null,
+                                  "type_knowledge": {
+                                    "reduces_to": null
+                                  },
+                                  "memory_knowledge": {
+                                    "concrete_dimensions": null,
+                                    "full_length": null,
+                                    "abstract_memory_address": null
+                                  }
+                                },
+                                "xtype": "Var",
+                                "name": "i",
+                                "dimensions": [],
+                                "is_constant": true
+                              }
+                            },
+                            {
+                              "Substitution": {
+                                "meta": {
+                                  "elem_id": 0,
+                                  "start": 156,
+                                  "end": 163,
+                                  "location": {
+                                    "start": 156,
+                                    "end": 163
+                                  },
+                                  "file_id": null,
+                                  "component_inference": null,
+                                  "type_knowledge": {
+                                    "reduces_to": null
+                                  },
+                                  "memory_knowledge": {
+                                    "concrete_dimensions": null,
+                                    "full_length": null,
+                                    "abstract_memory_address": null
+                                  }
+                                },
+                                "var": "i",
+                                "access": [],
+                                "op": "AssignVar",
+                                "rhe": {
+                                  "Number": [
+                                    {
+                                      "elem_id": 0,
+                                      "start": 162,
+                                      "end": 163,
+                                      "location": {
+                                        "start": 162,
+                                        "end": 163
+                                      },
+                                      "file_id": null,
+                                      "component_inference": null,
+                                      "type_knowledge": {
+                                        "reduces_to": null
+                                      },
+                                      "memory_knowledge": {
+                                        "concrete_dimensions": null,
+                                        "full_length": null,
+                                        "abstract_memory_address": null
+                                      }
+                                    },
+                                    [
+                                      0,
+                                      []
+                                    ]
+                                  ]
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "While": {
+                          "meta": {
+                            "elem_id": 0,
+                            "start": 151,
+                            "end": 234,
+                            "location": {
+                              "start": 151,
+                              "end": 234
+                            },
+                            "file_id": null,
+                            "component_inference": null,
+                            "type_knowledge": {
+                              "reduces_to": null
+                            },
+                            "memory_knowledge": {
+                              "concrete_dimensions": null,
+                              "full_length": null,
+                              "abstract_memory_address": null
+                            }
+                          },
+                          "cond": {
+                            "InfixOp": {
+                              "meta": {
+                                "elem_id": 0,
+                                "start": 165,
+                                "end": 168,
+                                "location": {
+                                  "start": 165,
+                                  "end": 168
+                                },
+                                "file_id": null,
+                                "component_inference": null,
+                                "type_knowledge": {
+                                  "reduces_to": null
+                                },
+                                "memory_knowledge": {
+                                  "concrete_dimensions": null,
+                                  "full_length": null,
+                                  "abstract_memory_address": null
+                                }
+                              },
+                              "lhe": {
+                                "Variable": {
+                                  "meta": {
+                                    "elem_id": 0,
+                                    "start": 165,
+                                    "end": 166,
+                                    "location": {
+                                      "start": 165,
+                                      "end": 166
+                                    },
+                                    "file_id": null,
+                                    "component_inference": null,
+                                    "type_knowledge": {
+                                      "reduces_to": null
+                                    },
+                                    "memory_knowledge": {
+                                      "concrete_dimensions": null,
+                                      "full_length": null,
+                                      "abstract_memory_address": null
+                                    }
+                                  },
+                                  "name": "i",
+                                  "access": []
+                                }
+                              },
+                              "infix_op": "Lesser",
+                              "rhe": {
+                                "Variable": {
+                                  "meta": {
+                                    "elem_id": 0,
+                                    "start": 167,
+                                    "end": 168,
+                                    "location": {
+                                      "start": 167,
+                                      "end": 168
+                                    },
+                                    "file_id": null,
+                                    "component_inference": null,
+                                    "type_knowledge": {
+                                      "reduces_to": null
+                                    },
+                                    "memory_knowledge": {
+                                      "concrete_dimensions": null,
+                                      "full_length": null,
+                                      "abstract_memory_address": null
+                                    }
+                                  },
+                                  "name": "n",
+                                  "access": []
+                                }
+                              }
+                            }
+                          },
+                          "stmt": {
+                            "Block": {
+                              "meta": {
+                                "elem_id": 0,
+                                "start": 175,
+                                "end": 234,
+                                "location": {
+                                  "start": 175,
+                                  "end": 234
+                                },
+                                "file_id": null,
+                                "component_inference": null,
+                                "type_knowledge": {
+                                  "reduces_to": null
+                                },
+                                "memory_knowledge": {
+                                  "concrete_dimensions": null,
+                                  "full_length": null,
+                                  "abstract_memory_address": null
+                                }
+                              },
+                              "stmts": [
+                                {
+                                  "Block": {
+                                    "meta": {
+                                      "elem_id": 0,
+                                      "start": 175,
+                                      "end": 234,
+                                      "location": {
+                                        "start": 175,
+                                        "end": 234
+                                      },
+                                      "file_id": null,
+                                      "component_inference": null,
+                                      "type_knowledge": {
+                                        "reduces_to": null
+                                      },
+                                      "memory_knowledge": {
+                                        "concrete_dimensions": null,
+                                        "full_length": null,
+                                        "abstract_memory_address": null
+                                      }
+                                    },
+                                    "stmts": [
+                                      {
+                                        "Substitution": {
+                                          "meta": {
+                                            "elem_id": 0,
+                                            "start": 185,
+                                            "end": 227,
+                                            "location": {
+                                              "start": 185,
+                                              "end": 227
+                                            },
+                                            "file_id": null,
+                                            "component_inference": null,
+                                            "type_knowledge": {
+                                              "reduces_to": null
+                                            },
+                                            "memory_knowledge": {
+                                              "concrete_dimensions": null,
+                                              "full_length": null,
+                                              "abstract_memory_address": null
+                                            }
+                                          },
+                                          "var": "out",
+                                          "access": [
+                                            {
+                                              "ArrayAccess": {
+                                                "Variable": {
+                                                  "meta": {
+                                                    "elem_id": 0,
+                                                    "start": 189,
+                                                    "end": 190,
+                                                    "location": {
+                                                      "start": 189,
+                                                      "end": 190
+                                                    },
+                                                    "file_id": null,
+                                                    "component_inference": null,
+                                                    "type_knowledge": {
+                                                      "reduces_to": null
+                                                    },
+                                                    "memory_knowledge": {
+                                                      "concrete_dimensions": null,
+                                                      "full_length": null,
+                                                      "abstract_memory_address": null
+                                                    }
+                                                  },
+                                                  "name": "i",
+                                                  "access": []
+                                                }
+                                              }
+                                            }
+                                          ],
+                                          "op": "AssignConstraintSignal",
+                                          "rhe": {
+                                            "InfixOp": {
+                                              "meta": {
+                                                "elem_id": 0,
+                                                "start": 196,
+                                                "end": 227,
+                                                "location": {
+                                                  "start": 196,
+                                                  "end": 227
+                                                },
+                                                "file_id": null,
+                                                "component_inference": null,
+                                                "type_knowledge": {
+                                                  "reduces_to": null
+                                                },
+                                                "memory_knowledge": {
+                                                  "concrete_dimensions": null,
+                                                  "full_length": null,
+                                                  "abstract_memory_address": null
+                                                }
+                                              },
+                                              "lhe": {
+                                                "InfixOp": {
+                                                  "meta": {
+                                                    "elem_id": 0,
+                                                    "start": 196,
+                                                    "end": 217,
+                                                    "location": {
+                                                      "start": 196,
+                                                      "end": 217
+                                                    },
+                                                    "file_id": null,
+                                                    "component_inference": null,
+                                                    "type_knowledge": {
+                                                      "reduces_to": null
+                                                    },
+                                                    "memory_knowledge": {
+                                                      "concrete_dimensions": null,
+                                                      "full_length": null,
+                                                      "abstract_memory_address": null
+                                                    }
+                                                  },
+                                                  "lhe": {
+                                                    "InfixOp": {
+                                                      "meta": {
+                                                        "elem_id": 0,
+                                                        "start": 197,
+                                                        "end": 214,
+                                                        "location": {
+                                                          "start": 197,
+                                                          "end": 214
+                                                        },
+                                                        "file_id": null,
+                                                        "component_inference": null,
+                                                        "type_knowledge": {
+                                                          "reduces_to": null
+                                                        },
+                                                        "memory_knowledge": {
+                                                          "concrete_dimensions": null,
+                                                          "full_length": null,
+                                                          "abstract_memory_address": null
+                                                        }
+                                                      },
+                                                      "lhe": {
+                                                        "Variable": {
+                                                          "meta": {
+                                                            "elem_id": 0,
+                                                            "start": 197,
+                                                            "end": 204,
+                                                            "location": {
+                                                              "start": 197,
+                                                              "end": 204
+                                                            },
+                                                            "file_id": null,
+                                                            "component_inference": null,
+                                                            "type_knowledge": {
+                                                              "reduces_to": null
+                                                            },
+                                                            "memory_knowledge": {
+                                                              "concrete_dimensions": null,
+                                                              "full_length": null,
+                                                              "abstract_memory_address": null
+                                                            }
+                                                          },
+                                                          "name": "c",
+                                                          "access": [
+                                                            {
+                                                              "ArrayAccess": {
+                                                                "Variable": {
+                                                                  "meta": {
+                                                                    "elem_id": 0,
+                                                                    "start": 199,
+                                                                    "end": 200,
+                                                                    "location": {
+                                                                      "start": 199,
+                                                                      "end": 200
+                                                                    },
+                                                                    "file_id": null,
+                                                                    "component_inference": null,
+                                                                    "type_knowledge": {
+                                                                      "reduces_to": null
+                                                                    },
+                                                                    "memory_knowledge": {
+                                                                      "concrete_dimensions": null,
+                                                                      "full_length": null,
+                                                                      "abstract_memory_address": null
+                                                                    }
+                                                                  },
+                                                                  "name": "i",
+                                                                  "access": []
+                                                                }
+                                                              }
+                                                            },
+                                                            {
+                                                              "ArrayAccess": {
+                                                                "Number": [
+                                                                  {
+                                                                    "elem_id": 0,
+                                                                    "start": 202,
+                                                                    "end": 203,
+                                                                    "location": {
+                                                                      "start": 202,
+                                                                      "end": 203
+                                                                    },
+                                                                    "file_id": null,
+                                                                    "component_inference": null,
+                                                                    "type_knowledge": {
+                                                                      "reduces_to": null
+                                                                    },
+                                                                    "memory_knowledge": {
+                                                                      "concrete_dimensions": null,
+                                                                      "full_length": null,
+                                                                      "abstract_memory_address": null
+                                                                    }
+                                                                  },
+                                                                  [
+                                                                    1,
+                                                                    [
+                                                                      1
+                                                                    ]
+                                                                  ]
+                                                                ]
+                                                              }
+                                                            }
+                                                          ]
+                                                        }
+                                                      },
+                                                      "infix_op": "Sub",
+                                                      "rhe": {
+                                                        "Variable": {
+                                                          "meta": {
+                                                            "elem_id": 0,
+                                                            "start": 207,
+                                                            "end": 214,
+                                                            "location": {
+                                                              "start": 207,
+                                                              "end": 214
+                                                            },
+                                                            "file_id": null,
+                                                            "component_inference": null,
+                                                            "type_knowledge": {
+                                                              "reduces_to": null
+                                                            },
+                                                            "memory_knowledge": {
+                                                              "concrete_dimensions": null,
+                                                              "full_length": null,
+                                                              "abstract_memory_address": null
+                                                            }
+                                                          },
+                                                          "name": "c",
+                                                          "access": [
+                                                            {
+                                                              "ArrayAccess": {
+                                                                "Variable": {
+                                                                  "meta": {
+                                                                    "elem_id": 0,
+                                                                    "start": 209,
+                                                                    "end": 210,
+                                                                    "location": {
+                                                                      "start": 209,
+                                                                      "end": 210
+                                                                    },
+                                                                    "file_id": null,
+                                                                    "component_inference": null,
+                                                                    "type_knowledge": {
+                                                                      "reduces_to": null
+                                                                    },
+                                                                    "memory_knowledge": {
+                                                                      "concrete_dimensions": null,
+                                                                      "full_length": null,
+                                                                      "abstract_memory_address": null
+                                                                    }
+                                                                  },
+                                                                  "name": "i",
+                                                                  "access": []
+                                                                }
+                                                              }
+                                                            },
+                                                            {
+                                                              "ArrayAccess": {
+                                                                "Number": [
+                                                                  {
+                                                                    "elem_id": 0,
+                                                                    "start": 212,
+                                                                    "end": 213,
+                                                                    "location": {
+                                                                      "start": 212,
+                                                                      "end": 213
+                                                                    },
+                                                                    "file_id": null,
+                                                                    "component_inference": null,
+                                                                    "type_knowledge": {
+                                                                      "reduces_to": null
+                                                                    },
+                                                                    "memory_knowledge": {
+                                                                      "concrete_dimensions": null,
+                                                                      "full_length": null,
+                                                                      "abstract_memory_address": null
+                                                                    }
+                                                                  },
+                                                                  [
+                                                                    0,
+                                                                    []
+                                                                  ]
+                                                                ]
+                                                              }
+                                                            }
+                                                          ]
+                                                        }
+                                                      }
+                                                    }
+                                                  },
+                                                  "infix_op": "Mul",
+                                                  "rhe": {
+                                                    "Variable": {
+                                                      "meta": {
+                                                        "elem_id": 0,
+                                                        "start": 216,
+                                                        "end": 217,
+                                                        "location": {
+                                                          "start": 216,
+                                                          "end": 217
+                                                        },
+                                                        "file_id": null,
+                                                        "component_inference": null,
+                                                        "type_knowledge": {
+                                                          "reduces_to": null
+                                                        },
+                                                        "memory_knowledge": {
+                                                          "concrete_dimensions": null,
+                                                          "full_length": null,
+                                                          "abstract_memory_address": null
+                                                        }
+                                                      },
+                                                      "name": "s",
+                                                      "access": []
+                                                    }
+                                                  }
+                                                }
+                                              },
+                                              "infix_op": "Add",
+                                              "rhe": {
+                                                "Variable": {
+                                                  "meta": {
+                                                    "elem_id": 0,
+                                                    "start": 220,
+                                                    "end": 227,
+                                                    "location": {
+                                                      "start": 220,
+                                                      "end": 227
+                                                    },
+                                                    "file_id": null,
+                                                    "component_inference": null,
+                                                    "type_knowledge": {
+                                                      "reduces_to": null
+                                                    },
+                                                    "memory_knowledge": {
+                                                      "concrete_dimensions": null,
+                                                      "full_length": null,
+                                                      "abstract_memory_address": null
+                                                    }
+                                                  },
+                                                  "name": "c",
+                                                  "access": [
+                                                    {
+                                                      "ArrayAccess": {
+                                                        "Variable": {
+                                                          "meta": {
+                                                            "elem_id": 0,
+                                                            "start": 222,
+                                                            "end": 223,
+                                                            "location": {
+                                                              "start": 222,
+                                                              "end": 223
+                                                            },
+                                                            "file_id": null,
+                                                            "component_inference": null,
+                                                            "type_knowledge": {
+                                                              "reduces_to": null
+                                                            },
+                                                            "memory_knowledge": {
+                                                              "concrete_dimensions": null,
+                                                              "full_length": null,
+                                                              "abstract_memory_address": null
+                                                            }
+                                                          },
+                                                          "name": "i",
+                                                          "access": []
+                                                        }
+                                                      }
+                                                    },
+                                                    {
+                                                      "ArrayAccess": {
+                                                        "Number": [
+                                                          {
+                                                            "elem_id": 0,
+                                                            "start": 225,
+                                                            "end": 226,
+                                                            "location": {
+                                                              "start": 225,
+                                                              "end": 226
+                                                            },
+                                                            "file_id": null,
+                                                            "component_inference": null,
+                                                            "type_knowledge": {
+                                                              "reduces_to": null
+                                                            },
+                                                            "memory_knowledge": {
+                                                              "concrete_dimensions": null,
+                                                              "full_length": null,
+                                                              "abstract_memory_address": null
+                                                            }
+                                                          },
+                                                          [
+                                                            0,
+                                                            []
+                                                          ]
+                                                        ]
+                                                      }
+                                                    }
+                                                  ]
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                },
+                                {
+                                  "Substitution": {
+                                    "meta": {
+                                      "elem_id": 0,
+                                      "start": 170,
+                                      "end": 173,
+                                      "location": {
+                                        "start": 170,
+                                        "end": 173
+                                      },
+                                      "file_id": null,
+                                      "component_inference": null,
+                                      "type_knowledge": {
+                                        "reduces_to": null
+                                      },
+                                      "memory_knowledge": {
+                                        "concrete_dimensions": null,
+                                        "full_length": null,
+                                        "abstract_memory_address": null
+                                      }
+                                    },
+                                    "var": "i",
+                                    "access": [],
+                                    "op": "AssignVar",
+                                    "rhe": {
+                                      "InfixOp": {
+                                        "meta": {
+                                          "elem_id": 0,
+                                          "start": 170,
+                                          "end": 173,
+                                          "location": {
+                                            "start": 170,
+                                            "end": 173
+                                          },
+                                          "file_id": null,
+                                          "component_inference": null,
+                                          "type_knowledge": {
+                                            "reduces_to": null
+                                          },
+                                          "memory_knowledge": {
+                                            "concrete_dimensions": null,
+                                            "full_length": null,
+                                            "abstract_memory_address": null
+                                          }
+                                        },
+                                        "lhe": {
+                                          "Variable": {
+                                            "meta": {
+                                              "elem_id": 0,
+                                              "start": 170,
+                                              "end": 173,
+                                              "location": {
+                                                "start": 170,
+                                                "end": 173
+                                              },
+                                              "file_id": null,
+                                              "component_inference": null,
+                                              "type_knowledge": {
+                                                "reduces_to": null
+                                              },
+                                              "memory_knowledge": {
+                                                "concrete_dimensions": null,
+                                                "full_length": null,
+                                                "abstract_memory_address": null
+                                              }
+                                            },
+                                            "name": "i",
+                                            "access": []
+                                          }
+                                        },
+                                        "infix_op": "Add",
+                                        "rhe": {
+                                          "Number": [
+                                            {
+                                              "elem_id": 0,
+                                              "start": 170,
+                                              "end": 173,
+                                              "location": {
+                                                "start": 170,
+                                                "end": 173
+                                              },
+                                              "file_id": null,
+                                              "component_inference": null,
+                                              "type_knowledge": {
+                                                "reduces_to": null
+                                              },
+                                              "memory_knowledge": {
+                                                "concrete_dimensions": null,
+                                                "full_length": null,
+                                                "abstract_memory_address": null
+                                              }
+                                            },
+                                            [
+                                              1,
+                                              [
+                                                1
+                                              ]
+                                            ]
+                                          ]
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              ]
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "parallel": false,
+          "is_custom_gate": false
+        }
+      },
+      {
+        "Template": {
+          "meta": {
+            "elem_id": 0,
+            "start": 238,
+            "end": 503,
+            "location": {
+              "start": 238,
+              "end": 503
+            },
+            "file_id": null,
+            "component_inference": null,
+            "type_knowledge": {
+              "reduces_to": null
+            },
+            "memory_knowledge": {
+              "concrete_dimensions": null,
+              "full_length": null,
+              "abstract_memory_address": null
+            }
+          },
+          "name": "Mux1",
+          "args": [],
+          "arg_location": {
+            "start": 252,
+            "end": 252
+          },
+          "body": {
+            "Block": {
+              "meta": {
+                "elem_id": 0,
+                "start": 254,
+                "end": 503,
+                "location": {
+                  "start": 254,
+                  "end": 503
+                },
+                "file_id": null,
+                "component_inference": null,
+                "type_knowledge": {
+                  "reduces_to": null
+                },
+                "memory_knowledge": {
+                  "concrete_dimensions": null,
+                  "full_length": null,
+                  "abstract_memory_address": null
+                }
+              },
+              "stmts": [
+                {
+                  "InitializationBlock": {
+                    "meta": {
+                      "elem_id": 0,
+                      "start": 260,
+                      "end": 265,
+                      "location": {
+                        "start": 260,
+                        "end": 265
+                      },
+                      "file_id": null,
+                      "component_inference": null,
+                      "type_knowledge": {
+                        "reduces_to": null
+                      },
+                      "memory_knowledge": {
+                        "concrete_dimensions": null,
+                        "full_length": null,
+                        "abstract_memory_address": null
+                      }
+                    },
+                    "xtype": "Var",
+                    "initializations": [
+                      {
+                        "Declaration": {
+                          "meta": {
+                            "elem_id": 0,
+                            "start": 260,
+                            "end": 265,
+                            "location": {
+                              "start": 260,
+                              "end": 265
+                            },
+                            "file_id": null,
+                            "component_inference": null,
+                            "type_knowledge": {
+                              "reduces_to": null
+                            },
+                            "memory_knowledge": {
+                              "concrete_dimensions": null,
+                              "full_length": null,
+                              "abstract_memory_address": null
+                            }
+                          },
+                          "xtype": "Var",
+                          "name": "i",
+                          "dimensions": [],
+                          "is_constant": true
+                        }
+                      },
+                      {
+                        "Substitution": {
+                          "meta": {
+                            "elem_id": 0,
+                            "start": 260,
+                            "end": 265,
+                            "location": {
+                              "start": 260,
+                              "end": 265
+                            },
+                            "file_id": null,
+                            "component_inference": null,
+                            "type_knowledge": {
+                              "reduces_to": null
+                            },
+                            "memory_knowledge": {
+                              "concrete_dimensions": null,
+                              "full_length": null,
+                              "abstract_memory_address": null
+                            }
+                          },
+                          "var": "i",
+                          "access": [],
+                          "op": "AssignVar",
+                          "rhe": {
+                            "Number": [
+                              {
+                                "elem_id": 0,
+                                "start": 260,
+                                "end": 265,
+                                "location": {
+                                  "start": 260,
+                                  "end": 265
+                                },
+                                "file_id": null,
+                                "component_inference": null,
+                                "type_knowledge": {
+                                  "reduces_to": null
+                                },
+                                "memory_knowledge": {
+                                  "concrete_dimensions": null,
+                                  "full_length": null,
+                                  "abstract_memory_address": null
+                                }
+                              },
+                              [
+                                0,
+                                []
+                              ]
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "InitializationBlock": {
+                    "meta": {
+                      "elem_id": 0,
+                      "start": 271,
+                      "end": 288,
+                      "location": {
+                        "start": 271,
+                        "end": 288
+                      },
+                      "file_id": null,
+                      "component_inference": null,
+                      "type_knowledge": {
+                        "reduces_to": null
+                      },
+                      "memory_knowledge": {
+                        "concrete_dimensions": null,
+                        "full_length": null,
+                        "abstract_memory_address": null
+                      }
+                    },
+                    "xtype": {
+                      "Signal": [
+                        "Input",
+                        []
+                      ]
+                    },
+                    "initializations": [
+                      {
+                        "Declaration": {
+                          "meta": {
+                            "elem_id": 0,
+                            "start": 271,
+                            "end": 288,
+                            "location": {
+                              "start": 271,
+                              "end": 288
+                            },
+                            "file_id": null,
+                            "component_inference": null,
+                            "type_knowledge": {
+                              "reduces_to": null
+                            },
+                            "memory_knowledge": {
+                              "concrete_dimensions": null,
+                              "full_length": null,
+                              "abstract_memory_address": null
+                            }
+                          },
+                          "xtype": {
+                            "Signal": [
+                              "Input",
+                              []
+                            ]
+                          },
+                          "name": "c",
+                          "dimensions": [
+                            {
+                              "Number": [
+                                {
+                                  "elem_id": 0,
+                                  "start": 286,
+                                  "end": 287,
+                                  "location": {
+                                    "start": 286,
+                                    "end": 287
+                                  },
+                                  "file_id": null,
+                                  "component_inference": null,
+                                  "type_knowledge": {
+                                    "reduces_to": null
+                                  },
+                                  "memory_knowledge": {
+                                    "concrete_dimensions": null,
+                                    "full_length": null,
+                                    "abstract_memory_address": null
+                                  }
+                                },
+                                [
+                                  1,
+                                  [
+                                    2
+                                  ]
+                                ]
+                              ]
+                            }
+                          ],
+                          "is_constant": true
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "InitializationBlock": {
+                    "meta": {
+                      "elem_id": 0,
+                      "start": 308,
+                      "end": 322,
+                      "location": {
+                        "start": 308,
+                        "end": 322
+                      },
+                      "file_id": null,
+                      "component_inference": null,
+                      "type_knowledge": {
+                        "reduces_to": null
+                      },
+                      "memory_knowledge": {
+                        "concrete_dimensions": null,
+                        "full_length": null,
+                        "abstract_memory_address": null
+                      }
+                    },
+                    "xtype": {
+                      "Signal": [
+                        "Input",
+                        []
+                      ]
+                    },
+                    "initializations": [
+                      {
+                        "Declaration": {
+                          "meta": {
+                            "elem_id": 0,
+                            "start": 308,
+                            "end": 322,
+                            "location": {
+                              "start": 308,
+                              "end": 322
+                            },
+                            "file_id": null,
+                            "component_inference": null,
+                            "type_knowledge": {
+                              "reduces_to": null
+                            },
+                            "memory_knowledge": {
+                              "concrete_dimensions": null,
+                              "full_length": null,
+                              "abstract_memory_address": null
+                            }
+                          },
+                          "xtype": {
+                            "Signal": [
+                              "Input",
+                              []
+                            ]
+                          },
+                          "name": "s",
+                          "dimensions": [],
+                          "is_constant": true
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "InitializationBlock": {
+                    "meta": {
+                      "elem_id": 0,
+                      "start": 342,
+                      "end": 359,
+                      "location": {
+                        "start": 342,
+                        "end": 359
+                      },
+                      "file_id": null,
+                      "component_inference": null,
+                      "type_knowledge": {
+                        "reduces_to": null
+                      },
+                      "memory_knowledge": {
+                        "concrete_dimensions": null,
+                        "full_length": null,
+                        "abstract_memory_address": null
+                      }
+                    },
+                    "xtype": {
+                      "Signal": [
+                        "Output",
+                        []
+                      ]
+                    },
+                    "initializations": [
+                      {
+                        "Declaration": {
+                          "meta": {
+                            "elem_id": 0,
+                            "start": 342,
+                            "end": 359,
+                            "location": {
+                              "start": 342,
+                              "end": 359
+                            },
+                            "file_id": null,
+                            "component_inference": null,
+                            "type_knowledge": {
+                              "reduces_to": null
+                            },
+                            "memory_knowledge": {
+                              "concrete_dimensions": null,
+                              "full_length": null,
+                              "abstract_memory_address": null
+                            }
+                          },
+                          "xtype": {
+                            "Signal": [
+                              "Output",
+                              []
+                            ]
+                          },
+                          "name": "out",
+                          "dimensions": [],
+                          "is_constant": true
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "InitializationBlock": {
+                    "meta": {
+                      "elem_id": 0,
+                      "start": 366,
+                      "end": 394,
+                      "location": {
+                        "start": 366,
+                        "end": 394
+                      },
+                      "file_id": null,
+                      "component_inference": null,
+                      "type_knowledge": {
+                        "reduces_to": null
+                      },
+                      "memory_knowledge": {
+                        "concrete_dimensions": null,
+                        "full_length": null,
+                        "abstract_memory_address": null
+                      }
+                    },
+                    "xtype": "Component",
+                    "initializations": [
+                      {
+                        "Declaration": {
+                          "meta": {
+                            "elem_id": 0,
+                            "start": 366,
+                            "end": 394,
+                            "location": {
+                              "start": 366,
+                              "end": 394
+                            },
+                            "file_id": null,
+                            "component_inference": null,
+                            "type_knowledge": {
+                              "reduces_to": null
+                            },
+                            "memory_knowledge": {
+                              "concrete_dimensions": null,
+                              "full_length": null,
+                              "abstract_memory_address": null
+                            }
+                          },
+                          "xtype": "Component",
+                          "name": "mux",
+                          "dimensions": [],
+                          "is_constant": true
+                        }
+                      },
+                      {
+                        "Substitution": {
+                          "meta": {
+                            "elem_id": 0,
+                            "start": 366,
+                            "end": 394,
+                            "location": {
+                              "start": 366,
+                              "end": 394
+                            },
+                            "file_id": null,
+                            "component_inference": null,
+                            "type_knowledge": {
+                              "reduces_to": null
+                            },
+                            "memory_knowledge": {
+                              "concrete_dimensions": null,
+                              "full_length": null,
+                              "abstract_memory_address": null
+                            }
+                          },
+                          "var": "mux",
+                          "access": [],
+                          "op": "AssignVar",
+                          "rhe": {
+                            "Call": {
+                              "meta": {
+                                "elem_id": 0,
+                                "start": 382,
+                                "end": 394,
+                                "location": {
+                                  "start": 382,
+                                  "end": 394
+                                },
+                                "file_id": null,
+                                "component_inference": null,
+                                "type_knowledge": {
+                                  "reduces_to": null
+                                },
+                                "memory_knowledge": {
+                                  "concrete_dimensions": null,
+                                  "full_length": null,
+                                  "abstract_memory_address": null
+                                }
+                              },
+                              "id": "MultiMux1",
+                              "args": [
+                                {
+                                  "Number": [
+                                    {
+                                      "elem_id": 0,
+                                      "start": 392,
+                                      "end": 393,
+                                      "location": {
+                                        "start": 392,
+                                        "end": 393
+                                      },
+                                      "file_id": null,
+                                      "component_inference": null,
+                                      "type_knowledge": {
+                                        "reduces_to": null
+                                      },
+                                      "memory_knowledge": {
+                                        "concrete_dimensions": null,
+                                        "full_length": null,
+                                        "abstract_memory_address": null
+                                      }
+                                    },
+                                    [
+                                      1,
+                                      [
+                                        1
+                                      ]
+                                    ]
+                                  ]
+                                }
+                              ]
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "Block": {
+                    "meta": {
+                      "elem_id": 0,
+                      "start": 401,
+                      "end": 458,
+                      "location": {
+                        "start": 401,
+                        "end": 458
+                      },
+                      "file_id": null,
+                      "component_inference": null,
+                      "type_knowledge": {
+                        "reduces_to": null
+                      },
+                      "memory_knowledge": {
+                        "concrete_dimensions": null,
+                        "full_length": null,
+                        "abstract_memory_address": null
+                      }
+                    },
+                    "stmts": [
+                      {
+                        "Substitution": {
+                          "meta": {
+                            "elem_id": 0,
+                            "start": 406,
+                            "end": 409,
+                            "location": {
+                              "start": 406,
+                              "end": 409
+                            },
+                            "file_id": null,
+                            "component_inference": null,
+                            "type_knowledge": {
+                              "reduces_to": null
+                            },
+                            "memory_knowledge": {
+                              "concrete_dimensions": null,
+                              "full_length": null,
+                              "abstract_memory_address": null
+                            }
+                          },
+                          "var": "i",
+                          "access": [],
+                          "op": "AssignVar",
+                          "rhe": {
+                            "Number": [
+                              {
+                                "elem_id": 0,
+                                "start": 408,
+                                "end": 409,
+                                "location": {
+                                  "start": 408,
+                                  "end": 409
+                                },
+                                "file_id": null,
+                                "component_inference": null,
+                                "type_knowledge": {
+                                  "reduces_to": null
+                                },
+                                "memory_knowledge": {
+                                  "concrete_dimensions": null,
+                                  "full_length": null,
+                                  "abstract_memory_address": null
+                                }
+                              },
+                              [
+                                0,
+                                []
+                              ]
+                            ]
+                          }
+                        }
+                      },
+                      {
+                        "While": {
+                          "meta": {
+                            "elem_id": 0,
+                            "start": 401,
+                            "end": 458,
+                            "location": {
+                              "start": 401,
+                              "end": 458
+                            },
+                            "file_id": null,
+                            "component_inference": null,
+                            "type_knowledge": {
+                              "reduces_to": null
+                            },
+                            "memory_knowledge": {
+                              "concrete_dimensions": null,
+                              "full_length": null,
+                              "abstract_memory_address": null
+                            }
+                          },
+                          "cond": {
+                            "InfixOp": {
+                              "meta": {
+                                "elem_id": 0,
+                                "start": 411,
+                                "end": 414,
+                                "location": {
+                                  "start": 411,
+                                  "end": 414
+                                },
+                                "file_id": null,
+                                "component_inference": null,
+                                "type_knowledge": {
+                                  "reduces_to": null
+                                },
+                                "memory_knowledge": {
+                                  "concrete_dimensions": null,
+                                  "full_length": null,
+                                  "abstract_memory_address": null
+                                }
+                              },
+                              "lhe": {
+                                "Variable": {
+                                  "meta": {
+                                    "elem_id": 0,
+                                    "start": 411,
+                                    "end": 412,
+                                    "location": {
+                                      "start": 411,
+                                      "end": 412
+                                    },
+                                    "file_id": null,
+                                    "component_inference": null,
+                                    "type_knowledge": {
+                                      "reduces_to": null
+                                    },
+                                    "memory_knowledge": {
+                                      "concrete_dimensions": null,
+                                      "full_length": null,
+                                      "abstract_memory_address": null
+                                    }
+                                  },
+                                  "name": "i",
+                                  "access": []
+                                }
+                              },
+                              "infix_op": "Lesser",
+                              "rhe": {
+                                "Number": [
+                                  {
+                                    "elem_id": 0,
+                                    "start": 413,
+                                    "end": 414,
+                                    "location": {
+                                      "start": 413,
+                                      "end": 414
+                                    },
+                                    "file_id": null,
+                                    "component_inference": null,
+                                    "type_knowledge": {
+                                      "reduces_to": null
+                                    },
+                                    "memory_knowledge": {
+                                      "concrete_dimensions": null,
+                                      "full_length": null,
+                                      "abstract_memory_address": null
+                                    }
+                                  },
+                                  [
+                                    1,
+                                    [
+                                      2
+                                    ]
+                                  ]
+                                ]
+                              }
+                            }
+                          },
+                          "stmt": {
+                            "Block": {
+                              "meta": {
+                                "elem_id": 0,
+                                "start": 421,
+                                "end": 458,
+                                "location": {
+                                  "start": 421,
+                                  "end": 458
+                                },
+                                "file_id": null,
+                                "component_inference": null,
+                                "type_knowledge": {
+                                  "reduces_to": null
+                                },
+                                "memory_knowledge": {
+                                  "concrete_dimensions": null,
+                                  "full_length": null,
+                                  "abstract_memory_address": null
+                                }
+                              },
+                              "stmts": [
+                                {
+                                  "Block": {
+                                    "meta": {
+                                      "elem_id": 0,
+                                      "start": 421,
+                                      "end": 458,
+                                      "location": {
+                                        "start": 421,
+                                        "end": 458
+                                      },
+                                      "file_id": null,
+                                      "component_inference": null,
+                                      "type_knowledge": {
+                                        "reduces_to": null
+                                      },
+                                      "memory_knowledge": {
+                                        "concrete_dimensions": null,
+                                        "full_length": null,
+                                        "abstract_memory_address": null
+                                      }
+                                    },
+                                    "stmts": [
+                                      {
+                                        "Substitution": {
+                                          "meta": {
+                                            "elem_id": 0,
+                                            "start": 431,
+                                            "end": 451,
+                                            "location": {
+                                              "start": 431,
+                                              "end": 451
+                                            },
+                                            "file_id": null,
+                                            "component_inference": null,
+                                            "type_knowledge": {
+                                              "reduces_to": null
+                                            },
+                                            "memory_knowledge": {
+                                              "concrete_dimensions": null,
+                                              "full_length": null,
+                                              "abstract_memory_address": null
+                                            }
+                                          },
+                                          "var": "mux",
+                                          "access": [
+                                            {
+                                              "ComponentAccess": "c"
+                                            },
+                                            {
+                                              "ArrayAccess": {
+                                                "Number": [
+                                                  {
+                                                    "elem_id": 0,
+                                                    "start": 437,
+                                                    "end": 438,
+                                                    "location": {
+                                                      "start": 437,
+                                                      "end": 438
+                                                    },
+                                                    "file_id": null,
+                                                    "component_inference": null,
+                                                    "type_knowledge": {
+                                                      "reduces_to": null
+                                                    },
+                                                    "memory_knowledge": {
+                                                      "concrete_dimensions": null,
+                                                      "full_length": null,
+                                                      "abstract_memory_address": null
+                                                    }
+                                                  },
+                                                  [
+                                                    0,
+                                                    []
+                                                  ]
+                                                ]
+                                              }
+                                            },
+                                            {
+                                              "ArrayAccess": {
+                                                "Variable": {
+                                                  "meta": {
+                                                    "elem_id": 0,
+                                                    "start": 440,
+                                                    "end": 441,
+                                                    "location": {
+                                                      "start": 440,
+                                                      "end": 441
+                                                    },
+                                                    "file_id": null,
+                                                    "component_inference": null,
+                                                    "type_knowledge": {
+                                                      "reduces_to": null
+                                                    },
+                                                    "memory_knowledge": {
+                                                      "concrete_dimensions": null,
+                                                      "full_length": null,
+                                                      "abstract_memory_address": null
+                                                    }
+                                                  },
+                                                  "name": "i",
+                                                  "access": []
+                                                }
+                                              }
+                                            }
+                                          ],
+                                          "op": "AssignConstraintSignal",
+                                          "rhe": {
+                                            "Variable": {
+                                              "meta": {
+                                                "elem_id": 0,
+                                                "start": 447,
+                                                "end": 451,
+                                                "location": {
+                                                  "start": 447,
+                                                  "end": 451
+                                                },
+                                                "file_id": null,
+                                                "component_inference": null,
+                                                "type_knowledge": {
+                                                  "reduces_to": null
+                                                },
+                                                "memory_knowledge": {
+                                                  "concrete_dimensions": null,
+                                                  "full_length": null,
+                                                  "abstract_memory_address": null
+                                                }
+                                              },
+                                              "name": "c",
+                                              "access": [
+                                                {
+                                                  "ArrayAccess": {
+                                                    "Variable": {
+                                                      "meta": {
+                                                        "elem_id": 0,
+                                                        "start": 449,
+                                                        "end": 450,
+                                                        "location": {
+                                                          "start": 449,
+                                                          "end": 450
+                                                        },
+                                                        "file_id": null,
+                                                        "component_inference": null,
+                                                        "type_knowledge": {
+                                                          "reduces_to": null
+                                                        },
+                                                        "memory_knowledge": {
+                                                          "concrete_dimensions": null,
+                                                          "full_length": null,
+                                                          "abstract_memory_address": null
+                                                        }
+                                                      },
+                                                      "name": "i",
+                                                      "access": []
+                                                    }
+                                                  }
+                                                }
+                                              ]
+                                            }
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                },
+                                {
+                                  "Substitution": {
+                                    "meta": {
+                                      "elem_id": 0,
+                                      "start": 416,
+                                      "end": 419,
+                                      "location": {
+                                        "start": 416,
+                                        "end": 419
+                                      },
+                                      "file_id": null,
+                                      "component_inference": null,
+                                      "type_knowledge": {
+                                        "reduces_to": null
+                                      },
+                                      "memory_knowledge": {
+                                        "concrete_dimensions": null,
+                                        "full_length": null,
+                                        "abstract_memory_address": null
+                                      }
+                                    },
+                                    "var": "i",
+                                    "access": [],
+                                    "op": "AssignVar",
+                                    "rhe": {
+                                      "InfixOp": {
+                                        "meta": {
+                                          "elem_id": 0,
+                                          "start": 416,
+                                          "end": 419,
+                                          "location": {
+                                            "start": 416,
+                                            "end": 419
+                                          },
+                                          "file_id": null,
+                                          "component_inference": null,
+                                          "type_knowledge": {
+                                            "reduces_to": null
+                                          },
+                                          "memory_knowledge": {
+                                            "concrete_dimensions": null,
+                                            "full_length": null,
+                                            "abstract_memory_address": null
+                                          }
+                                        },
+                                        "lhe": {
+                                          "Variable": {
+                                            "meta": {
+                                              "elem_id": 0,
+                                              "start": 416,
+                                              "end": 419,
+                                              "location": {
+                                                "start": 416,
+                                                "end": 419
+                                              },
+                                              "file_id": null,
+                                              "component_inference": null,
+                                              "type_knowledge": {
+                                                "reduces_to": null
+                                              },
+                                              "memory_knowledge": {
+                                                "concrete_dimensions": null,
+                                                "full_length": null,
+                                                "abstract_memory_address": null
+                                              }
+                                            },
+                                            "name": "i",
+                                            "access": []
+                                          }
+                                        },
+                                        "infix_op": "Add",
+                                        "rhe": {
+                                          "Number": [
+                                            {
+                                              "elem_id": 0,
+                                              "start": 416,
+                                              "end": 419,
+                                              "location": {
+                                                "start": 416,
+                                                "end": 419
+                                              },
+                                              "file_id": null,
+                                              "component_inference": null,
+                                              "type_knowledge": {
+                                                "reduces_to": null
+                                              },
+                                              "memory_knowledge": {
+                                                "concrete_dimensions": null,
+                                                "full_length": null,
+                                                "abstract_memory_address": null
+                                              }
+                                            },
+                                            [
+                                              1,
+                                              [
+                                                1
+                                              ]
+                                            ]
+                                          ]
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              ]
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "Substitution": {
+                    "meta": {
+                      "elem_id": 0,
+                      "start": 464,
+                      "end": 475,
+                      "location": {
+                        "start": 464,
+                        "end": 475
+                      },
+                      "file_id": null,
+                      "component_inference": null,
+                      "type_knowledge": {
+                        "reduces_to": null
+                      },
+                      "memory_knowledge": {
+                        "concrete_dimensions": null,
+                        "full_length": null,
+                        "abstract_memory_address": null
+                      }
+                    },
+                    "var": "mux",
+                    "access": [
+                      {
+                        "ComponentAccess": "s"
+                      }
+                    ],
+                    "op": "AssignConstraintSignal",
+                    "rhe": {
+                      "Variable": {
+                        "meta": {
+                          "elem_id": 0,
+                          "start": 464,
+                          "end": 465,
+                          "location": {
+                            "start": 464,
+                            "end": 465
+                          },
+                          "file_id": null,
+                          "component_inference": null,
+                          "type_knowledge": {
+                            "reduces_to": null
+                          },
+                          "memory_knowledge": {
+                            "concrete_dimensions": null,
+                            "full_length": null,
+                            "abstract_memory_address": null
+                          }
+                        },
+                        "name": "s",
+                        "access": []
+                      }
+                    }
+                  }
+                },
+                {
+                  "Substitution": {
+                    "meta": {
+                      "elem_id": 0,
+                      "start": 482,
+                      "end": 500,
+                      "location": {
+                        "start": 482,
+                        "end": 500
+                      },
+                      "file_id": null,
+                      "component_inference": null,
+                      "type_knowledge": {
+                        "reduces_to": null
+                      },
+                      "memory_knowledge": {
+                        "concrete_dimensions": null,
+                        "full_length": null,
+                        "abstract_memory_address": null
+                      }
+                    },
+                    "var": "out",
+                    "access": [],
+                    "op": "AssignConstraintSignal",
+                    "rhe": {
+                      "Variable": {
+                        "meta": {
+                          "elem_id": 0,
+                          "start": 482,
+                          "end": 492,
+                          "location": {
+                            "start": 482,
+                            "end": 492
+                          },
+                          "file_id": null,
+                          "component_inference": null,
+                          "type_knowledge": {
+                            "reduces_to": null
+                          },
+                          "memory_knowledge": {
+                            "concrete_dimensions": null,
+                            "full_length": null,
+                            "abstract_memory_address": null
+                          }
+                        },
+                        "name": "mux",
+                        "access": [
+                          {
+                            "ComponentAccess": "out"
+                          },
+                          {
+                            "ArrayAccess": {
+                              "Number": [
+                                {
+                                  "elem_id": 0,
+                                  "start": 490,
+                                  "end": 491,
+                                  "location": {
+                                    "start": 490,
+                                    "end": 491
+                                  },
+                                  "file_id": null,
+                                  "component_inference": null,
+                                  "type_knowledge": {
+                                    "reduces_to": null
+                                  },
+                                  "memory_knowledge": {
+                                    "concrete_dimensions": null,
+                                    "full_length": null,
+                                    "abstract_memory_address": null
+                                  }
+                                },
+                                [
+                                  0,
+                                  []
+                                ]
+                              ]
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "parallel": false,
+          "is_custom_gate": false
+        }
+      }
+    ],
+    "main_component": [
+      [],
+      {
+        "Call": {
+          "meta": {
+            "elem_id": 0,
+            "start": 522,
+            "end": 528,
+            "location": {
+              "start": 522,
+              "end": 528
+            },
+            "file_id": null,
+            "component_inference": null,
+            "type_knowledge": {
+              "reduces_to": null
+            },
+            "memory_knowledge": {
+              "concrete_dimensions": null,
+              "full_length": null,
+              "abstract_memory_address": null
+            }
+          },
+          "id": "Mux1",
+          "args": []
+        }
+      }
+    ]
+  }
+  
